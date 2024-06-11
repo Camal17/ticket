@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    border: 1px solid orangered;
+    background-color: rgb(254, 137, 67);
+    background: linear-gradient(90deg, rgba(254, 137, 67, 0.9472163865546218) 8%, rgba(231, 62, 1, 1) 100%);
+
+    h4 {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .icone img {
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.titres {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    margin: 275px auto;
+    display: none;
+
+    h4 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    p {
+        text-align: center;
+        margin: 0 20px 50px 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(238, 47, 22);
+        margin: 0 auto;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
+.buyticket {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .buy {
+        width: 250px;
+        margin: 100px auto 20px;
+    }
+
+    .infos {
+        text-align: center;
+      
+        .infos-ticket {
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .infos-ticket1 {
+            font-size: 0.8rem;
+        }
+    }
+
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 330px;
+  display: none;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 42, 0);
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 430px)
+{ 
+    .containeur1 {
+        display: none;
+    }
+    .error {
+       display: block;
+       .image2{
+        margin: 300px 30px 50px;
+        width: 100px;
+       }
+       h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Arial, Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0 30px 30px ;
+       }
+       p{
+        margin: 0 30px 70px;
+       }
+       a{
+        margin: 0 30px;
+       }
+    }
+    
+}

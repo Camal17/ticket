@@ -1,0 +1,38 @@
+
+    .error {
+        display: flex;
+        display: none;
+        flex-direction: column;}
+
+@media only screen and (min-width: 430px)
+{  
+    .image1 {
+        display: none;
+    }
+    .imageCentrale {
+        display: none;
+    }
+    .titres {
+        display: none;
+    }
+    .error {
+       display: flex;
+       display: block;
+       flex-direction: column;
+       .image2{
+        margin: 150px 30px 50px;
+        width: 100px;
+       }
+       h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Arial, Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0 30px 30px ;
+       }
+       p{
+        margin: 0 30px 70px;
+       }
+       a{
+        margin: 0 30px;
+       }
+    }
+    
+}

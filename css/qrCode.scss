@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qrCode {
+    display: none;
+    .croix1 {
+        width: 15px;
+
+    }
+    .details {
+        border-top: 1px dotted black;
+
+        .details1 {
+            margin-top: 20px;
+            font-weight: bold;
+
+        }
+
+        .dateDebut {
+            margin-top: 20px ;
+            font-size: 0.6rem;
+        }
+
+        .detailDateDebut {
+            
+            font-weight: bold;
+            margin: 0px 0px 20px 0px;
+        }
+    }
+}
+
+.qrImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .qr {
+        width: 300px;
+    }
+
+    p {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+        font-style: italic;
+        font-weight: bold;
+        color: rgb(205, 199, 199);
+        text-align: center;
+
+    }
+
+}

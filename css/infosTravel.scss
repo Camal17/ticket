@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.infosTravel {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    border-top: 1px black solid;
+    width: 100vw;
+    border-radius: 20px;
+    .travel {
+        margin-top: 50px;
+        margin-left: 20px;
+        h2 {
+            font-size: 1rem;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 0.8rem;
+        }
+        .choice p {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+        .input {
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+            width: 380px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+    }
+    
+}
+
+
+

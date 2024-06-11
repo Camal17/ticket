@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myTicket {
+    display: flex;
+    flex-direction: column;
+    
+}
+.myTravel {
+    display: flex;
+    display: none;
+    height: 300px;
+    width: 100vw;
+    padding: 30px 0;
+    margin: auto;
+    background-color: rgb(235, 237, 238);
+
+    .msg {
+    display: flex;
+    justify-content: center;
+
+        p {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+
+        }
+
+        img {
+            margin-left: 10px;
+            width: 30px;
+            
+        }
+    }
+
+    img {
+        display: flex;
+        margin: 10px auto;
+        width: 250px;
+    }
+
+}
+
+.validate {
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    width: 380px;
+    height: 520px;
+    display: none;
+
+    .myValidation {
+       
+        h3 {
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+    }
+
+    .date {
+        margin-left: 5px;
+        font-size: 0.8rem;
+        display: inline;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(191, 190, 190);
+
+    }
+
+    .validation {
+        margin-top: 15px;
+        padding: 5px;
+        border: 1px dotted;
+
+        .time {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                font-size: 0.8rem;
+            }
+
+            span {
+                font-weight: bold;
+                font-size: 0.8rem;
+            }
+        }
+
+        .bus {
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+    }
+
+    .correspondance {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        margin-bottom: 30px;
+
+        .infos {
+            background-color: rgb(240, 66, 8);
+            border-radius: 30px;
+            width: 15px;
+            color: white;
+            font-size: 0.8rem;
+            text-align: center;
+            margin-right: 30px;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    button {
+        margin-bottom: 15px;
+    }
+}
+
+.text-correspondance {
+    display: none;
+
+    .text1 {
+        display: flex;
+        border-bottom: 1px dotted;
+        margin: 30px 10px;
+
+        span {
+            display: flex;
+            justify-content: center;
+            margin: 20px 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        p {
+            margin: 20px;
+        }
+    }
+
+}

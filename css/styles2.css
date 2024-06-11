@@ -1,0 +1,954 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .image {
+  display: block;
+}
+
+.image1 {
+  display: block;
+  position: absolute;
+  bottom: 70px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border: 1px solid orangered;
+  background-color: rgb(254, 137, 67);
+  background: linear-gradient(90deg, rgba(254, 137, 67, 0.9472163866) 8%, rgb(231, 62, 1) 100%);
+}
+header .header1 {
+  display: flex;
+}
+header .header1 h5 {
+  color: white;
+  text-align: center;
+}
+header .header1 img {
+  width: 20px;
+}
+header .headerAchat {
+  display: flex;
+}
+header .headerAchat h5 {
+  color: white;
+  text-align: center;
+}
+header .headerAchat img {
+  width: 20px;
+}
+
+.error {
+  display: flex;
+  display: none;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 430px) {
+  .image1 {
+    display: none;
+  }
+  .imageCentrale {
+    display: none;
+  }
+  .titres {
+    display: none;
+  }
+  .error {
+    display: flex;
+    display: block;
+    flex-direction: column;
+  }
+  .error .image2 {
+    margin: 150px 30px 50px;
+    width: 100px;
+  }
+  .error h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, Arial, Helvetica, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 0 30px 30px;
+  }
+  .error p {
+    margin: 0 30px 70px;
+  }
+  .error a {
+    margin: 0 30px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+  border-top: 1px solid black;
+  margin-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.navbar div {
+  display: flex;
+  flex-direction: column;
+}
+.navbar div img {
+  width: 30px;
+  margin: auto;
+}
+.navbar div p {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titres {
+  display: flex;
+  flex-direction: column;
+  margin: 275px auto;
+}
+.titres h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.titres p {
+  text-align: center;
+  margin: 0 20px 50px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.titres button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(238, 47, 22);
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .buyticket {
+  display: none;
+}
+body .buyticket .buyTicket {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+body .buyticket .buy {
+  display: flex;
+  margin: 100px auto;
+  width: 350px;
+}
+body .buyticket .infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+body .buyticket .infos .infos-ticket {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+body .buyticket .infos .infos-ticket1 {
+  font-size: 0.8rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 330px;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(238, 47, 22);
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+
+.fermer {
+  display: flex;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 42, 0);
+  margin: 100px auto;
+  color: white;
+  font-weight: bold;
+}
+
+.metro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 42, 0);
+  margin: 10px auto;
+  color: white;
+  font-weight: bold;
+}
+
+.metro2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 42, 0);
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+}
+
+.titre {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(238, 47, 22);
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+
+.payer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(255, 42, 0, 0.4);
+  margin: 550px auto;
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  width: 380px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(238, 47, 22);
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+
+.fermer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 42, 0);
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+
+.acheter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 42, 0);
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+
+.achatTitres {
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 42, 0);
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+.achatTitres img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  margin-right: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.infosTravel {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  border-top: 1px black solid;
+  width: 100vw;
+  border-radius: 20px;
+}
+.infosTravel .travel {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.infosTravel .travel h2 {
+  font-size: 1rem;
+}
+.infosTravel .travel .info {
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+.infosTravel .travel .choice p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.infosTravel .travel .input {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  width: 380px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myTicket {
+  display: flex;
+  flex-direction: column;
+}
+
+.myTravel {
+  display: flex;
+  display: none;
+  height: 300px;
+  width: 100vw;
+  padding: 30px 0;
+  margin: auto;
+  background-color: rgb(235, 237, 238);
+}
+.myTravel .msg {
+  display: flex;
+  justify-content: center;
+}
+.myTravel .msg p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+.myTravel .msg img {
+  margin-left: 10px;
+  width: 30px;
+}
+.myTravel img {
+  display: flex;
+  margin: 10px auto;
+  width: 250px;
+}
+
+.validate {
+  margin: auto;
+  background-color: white;
+  margin-top: 10px;
+  width: 380px;
+  height: 520px;
+  display: none;
+}
+.validate .myValidation h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+}
+.validate .date {
+  margin-left: 5px;
+  font-size: 0.8rem;
+  display: inline;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(191, 190, 190);
+}
+.validate .validation {
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px dotted;
+}
+.validate .validation .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.validate .validation .time p {
+  font-size: 0.8rem;
+}
+.validate .validation .time span {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.validate .validation .bus {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.validate .correspondance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+.validate .correspondance .infos {
+  background-color: rgb(240, 66, 8);
+  border-radius: 30px;
+  width: 15px;
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-right: 30px;
+}
+.validate .correspondance p {
+  font-size: 0.8rem;
+}
+.validate button {
+  margin-bottom: 15px;
+}
+
+.text-correspondance {
+  display: none;
+}
+.text-correspondance .text1 {
+  display: flex;
+  border-bottom: 1px dotted;
+  margin: 30px 10px;
+}
+.text-correspondance .text1 span {
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 2px solid black;
+  text-align: center;
+}
+.text-correspondance .text1 p {
+  margin: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.qrCode {
+  display: none;
+}
+.qrCode .croix1 {
+  width: 15px;
+}
+.qrCode .details {
+  border-top: 1px dotted black;
+}
+.qrCode .details .details1 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.qrCode .details .dateDebut {
+  margin-top: 20px;
+  font-size: 0.6rem;
+}
+.qrCode .details .detailDateDebut {
+  font-weight: bold;
+  margin: 0px 0px 20px 0px;
+}
+
+.qrImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qrImg .qr {
+  width: 300px;
+}
+.qrImg p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(205, 199, 199);
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.header {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.header .span1 {
+  display: none;
+}
+.header .header1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px;
+}
+.header .header1 .croix {
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+}
+
+.achatBillet {
+  display: none;
+  position: absolute;
+  top: 80px;
+}
+
+.achat {
+  width: 100%;
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.billet {
+  display: flex;
+  align-items: center;
+}
+.billet h3 {
+  font-size: 0.8rem;
+  margin: 0 70px 0 10px;
+}
+.billet .panier {
+  width: 20px;
+  margin: 0 10px;
+}
+.billet .panier1 {
+  width: 20px;
+  margin: 0 10px;
+}
+
+.infosBillets {
+  display: flex;
+  margin-left: 50px;
+}
+.infosBillets p {
+  font-size: 0.6rem;
+}
+.infosBillets .prix {
+  background-color: rgb(190, 186, 186);
+  margin-left: 200px;
+  font-size: 0.7rem;
+}
+.infosBillets .prix2 {
+  background-color: rgb(190, 186, 186);
+  margin-left: 130px;
+  font-size: 0.7rem;
+  padding-top: 0.5px;
+}
+
+.total {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border-top: 1px solid black;
+  width: 400px;
+  top: 630px;
+}
+.total .totalApayer {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  flex-direction: row-reverse;
+}
+.total .totalApayer span {
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 20px;
+}
+
+.achatBilletConf {
+  display: none;
+  position: absolute;
+  top: 80px;
+}
+.achatBilletConf .achat1 {
+  border-bottom: 1px dotted black;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.achatBilletConf .billet1 {
+  display: flex;
+  align-items: center;
+}
+.achatBilletConf .billet1 h5 {
+  font-size: 0.7rem;
+}
+.achatBilletConf .billet1 .prix {
+  display: flex;
+  margin-left: 150px;
+  font-size: 0.6rem;
+}
+.achatBilletConf .billet2 {
+  display: flex;
+  align-items: center;
+}
+.achatBilletConf .billet2 h5 {
+  font-size: 0.7rem;
+}
+.achatBilletConf .billet2 .prix {
+  display: flex;
+  margin-left: 130px;
+  font-size: 0.6rem;
+}
+.achatBilletConf .coche {
+  display: none;
+}
+.achatBilletConf .coche input {
+  margin: 30px 10px 0px 0px;
+}
+.achatBilletConf .coche label {
+  font-size: 0.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  margin: auto;
+  display: none;
+  top: 100px;
+}
+.payment .langueFR {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.payment .langueFR img {
+  height: 30px;
+  width: 150px;
+}
+.payment .langueFR p {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.676);
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 200px;
+}
+.payment .langueES {
+  display: flex;
+  justify-content: space-around;
+  display: none;
+}
+.payment .langueES img {
+  height: 30px;
+  width: 150px;
+}
+.payment .langueES p {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.676);
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 200px;
+}
+.payment .langueEN {
+  display: flex;
+  justify-content: space-around;
+  display: none;
+}
+.payment .langueEN img {
+  height: 30px;
+  width: 150px;
+}
+.payment .langueEN p {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.676);
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 200px;
+}
+.payment .montant {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+}
+.payment .montant p {
+  text-align: center;
+  padding-top: 15px;
+}
+.payment form {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+.payment .paymentCard {
+  margin-top: 10px;
+  background-color: white;
+}
+.payment .paymentCard label {
+  margin: 10px;
+  font-size: 0.8rem;
+}
+.payment .paymentCard input {
+  height: 40px;
+  margin: 20px 0px 20px 10px;
+  background-color: rgb(205, 205, 205);
+  border-radius: 5px;
+}
+.payment .paymentCard select {
+  height: 40px;
+  margin: 20px 0px 20px 10px;
+}
+.payment .paymentCard .imgCard {
+  background-color: rgb(205, 205, 205);
+  border-radius: 5px;
+  padding: 0px 5px;
+  height: 40px;
+}
+.payment .paymentCard .cardImg {
+  display: flex;
+  align-items: center;
+}
+.payment .paymentCard img .card {
+  width: 40px;
+}
+.payment .paymentCard .date {
+  width: 150px;
+}
+.payment .paymentCard .cripto {
+  width: 70px;
+}
+
+.valider {
+  margin: 30px auto;
+  background-color: blue;
+}
+
+.imgPay {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0 0;
+}
+
+.footer {
+  background-color: rgb(243, 243, 243);
+  width: 100vw;
+  height: 300px;
+}
+.footer a {
+  color: black;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.footer .imgfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .Copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .Copyright p {
+  font-size: 0.6rem;
+}
+.footer .Copyright .ml {
+  font-size: 0.6rem;
+  margin-left: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.question1 {
+  position: absolute;
+  top: 120px;
+  display: flex;
+  display: none;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+}
+.question1 img {
+  width: 10px;
+  height: 10px;
+}
+.question1 p {
+  font-size: 0.7rem;
+  margin: 20px;
+}
+
+.qst {
+  display: flex;
+  align-items: center;
+}
+.qst img {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.qstCrypto {
+  display: none;
+  position: absolute;
+  top: 330px;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+}
+.qstCrypto img {
+  width: 150px;
+}
+
+.qst2 {
+  display: flex;
+}
+.qst2 img {
+  width: 10px;
+  height: 15px;
+}
+.qst2 p {
+  margin-top: 25px;
+  font-size: 0.7rem;
+}
+
+.infosIcone {
+  width: 20px;
+  margin-right: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.paiementAccepter {
+  display: flex;
+  display: none;
+  justify-content: center;
+}
+.paiementAccepter .paiementValider {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+.paiementAccepter .paiementValider img {
+  width: 200px;
+  margin: 50px auto 50px;
+}
+.paiementAccepter .paiementValider .paymentAccept {
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+.paiementAccepter .paiementValider p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=styles2.css.map */

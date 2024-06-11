@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image {
+        display: block;
+    }
+  
+     }
+     .image1 { 
+        display: block;
+        position: absolute;
+        bottom:70px ;
+    }
+   

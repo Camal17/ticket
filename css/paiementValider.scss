@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.paiementAccepter {
+    display: flex;
+    display: none;
+    justify-content: center;
+    .paiementValider{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+        img{
+            width:200px;
+            margin: 50px auto 50px;
+        }
+            
+        .paymentAccept {
+            font-weight: bold;
+            margin-top: 50px;
+            font-size: 1rem;
+        }
+        p{
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8rem;
+        }
+    }
+}

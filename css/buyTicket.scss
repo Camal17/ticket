@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    .buyticket {
+        display: none;
+        .buyTicket {
+
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+        
+        .buy {
+            display: flex;
+            margin: 100px auto;
+            width: 350px;
+        }
+    
+        .infos {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-top: 20px;
+    
+            .infos-ticket {
+                font-weight: bold;
+                font-size: 0.9rem;
+            }
+            .infos-ticket1 {
+                font-size: 0.8rem;
+            }
+        }
+    
+    }
+}
+

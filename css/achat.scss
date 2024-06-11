@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.header {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    .span1 {
+        display: none;
+    }
+
+    .header1 {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 20px;
+
+        .croix {
+            margin-left: 20px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+.achatBillet {
+    display: none;
+    position: absolute;
+    top: 80px;
+}
+
+.achat {
+    width: 100%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.billet {
+    display: flex;
+    align-items: center;
+
+    h3 {
+        font-size: 0.8rem;
+        margin: 0 70px 0 10px;
+    }
+
+    .panier {
+        width: 20px;
+        margin: 0 10px;
+    }
+    .panier1 {
+        width: 20px;
+        margin: 0 10px;
+    }
+}
+
+.infosBillets {
+    display: flex;
+    margin-left: 50px;
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .prix {
+        background-color: rgb(190, 186, 186);
+        margin-left: 200px;
+        font-size: 0.7rem;
+    }
+
+    .prix2 {
+        background-color: rgb(190, 186, 186);
+        margin-left: 130px;
+        font-size: 0.7rem;
+        padding-top: 0.5px;
+    }
+}
+
+.total {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border-top: 1px solid black;
+    width: 400px;
+    top: 630px;
+
+    .totalApayer {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        flex-direction: row-reverse;
+
+        span {
+            font-weight: bold;
+            margin-left: 8px;
+            margin-right: 20px;
+        }
+
+    }
+}
+
+.achatBilletConf {
+    display: none;
+    position: absolute;
+    top: 80px;
+    
+    .achat1 {
+        border-bottom: 1px dotted black;
+        margin-top: 30px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        display: flex;
+       
+    }
+
+    .billet1 {
+        display: flex;
+        align-items: center;
+
+        h5 {
+            font-size: 0.7rem;
+        }
+
+        .prix {
+            display: flex;
+            margin-left: 150px;
+            font-size: 0.6rem;
+        }
+    }
+
+    .billet2 {
+        display: flex;
+        align-items: center;
+
+        h5 {
+            font-size: 0.7rem;
+        }
+
+        .prix {
+            display: flex;
+            margin-left: 130px;
+            font-size: 0.6rem;
+        }
+    }
+    .coche {
+        display: none;
+        input {
+            margin: 30px 10px 0px 0px;
+        }
+    
+        label {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+
+

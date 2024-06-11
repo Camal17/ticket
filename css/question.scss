@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.question1 {
+    position: absolute;
+    
+    top: 120px;
+    display: flex;
+    display: none;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    img {
+        width: 10px;
+        height: 10px;
+    }
+    p {
+        font-size: 0.7rem;
+        margin: 20px ;
+    }
+
+}
+.qst {
+    display: flex;
+    align-items: center ;
+    img {
+        width: 30px;
+        margin-left: 20px;
+    }
+}
+.qstCrypto {
+    display: none;
+    position: absolute;
+    top: 330px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    img {
+        width: 150px;
+    }
+}
+.qst2 {
+    display: flex;
+    img {
+        width: 10px;
+        height: 15px;
+     
+    }
+    p {
+        margin-top: 25px;
+        font-size: 0.7rem;
+    }
+
+}
+.infosIcone {
+    width: 20px;
+    margin-right: 20px;
+}
